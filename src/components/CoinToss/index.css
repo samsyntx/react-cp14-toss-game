@@ -1,0 +1,54 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.main-container-bg {
+  padding: 20px;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-toss-bg-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+.head-tail-img {
+  width: 150px;
+  margin: 20px 0px 20px 0px;
+}
+.coin-toss-game-heading {
+  font-weight: 500;
+  color: #a35200;
+  padding: 10px;
+}
+.coin-toss-game-paragraph {
+  color: #334155;
+  font-weight: bold;
+}
+.head-tail-button {
+  padding: 5px 10px 5px 10px;
+  background-color: #f9d423;
+  border: none;
+  color: #a35200;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.toss-score-result-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 15px 0px 15px 0px;
+  color: #334155;
+  font-weight: bold;
+}
